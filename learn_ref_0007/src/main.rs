@@ -24,12 +24,28 @@
 //借用:&mut
 
 fn main() {
-    let s1 = String::from("hello");
-    let len = calcute_length(&s1);
-    println!("s1 = {}",s1);
-    println!("len = {}", len);
+    let mut s1 = String::from("hello");
+    // let s = &s1;
+    // let len = calcute_length(&s);
+    // println!("s1 = {}", s1);
+    // println!("len = {}", len);
+
+    // let ms  = &mut s1;
+    // modify_s(ms);
+    // // modify_s(&mut s1);
+    // println!("s1 = {}", s1);
+
+    let r1 = &s1;
+    let r2 = &s1;
+    println!("{} {} ", r1, r2);
+    let r3 = &mut s1;
+    r3.push_str(", world");
 }
 
-fn calcute_length(s: &String) -> usize {
-    s.len()
-}
+// fn calcute_length(s: &String) -> usize {
+//     s.len()
+// }
+
+// fn modify_s(s: &mut String) {
+//     s.push_str(", world");
+// }
