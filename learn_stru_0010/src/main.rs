@@ -1,6 +1,6 @@
 fn main() {
     //1、定义结构体
-    #[derive(Debug)]
+    #[derive(Debug)]  // debug 格式化打印输出
     struct User {
         name: String,
         count: String,
