@@ -1,4 +1,3 @@
-
 fn main() {
     //1、定义结构体
     #[derive(Debug)]
@@ -16,7 +15,7 @@ fn main() {
         active: true,
     };
     println!("xiaoming = {:?}", xiaoming);
-    println!("xiaoming = {:?}", xiaoming);
+    println!("xiaoming = {:#?}", xiaoming);
 
     //3、修改结构体字段
     let mut xiaohuang = User {
