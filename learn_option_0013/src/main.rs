@@ -27,10 +27,20 @@ fn main() {
     let sum = x + temp;
     println!("sum = {}", sum);
 
-    let result = plus_one(y);
-    match result {
-        Some(i) => println!("result = {}", i),
-        None => println!("nothings"),
+    // let result = plus_one(y);
+    // match result {
+    //     Some(i) => println!("result = {}", i),
+    //     None => println!("nothings"),
+    // }
+
+    if let Some(value) = plus_one(y) {
+        println!("value = {}", value)
+    }
+
+    if let Some(value) = plus_one(y) {
+        println!("value = {}", value)
+    } else {
+        println!("do noting")
     }
 }
 
