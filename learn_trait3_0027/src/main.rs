@@ -1,6 +1,6 @@
 //fn largest<T: PartialOrd + Copy> (list: &[T]) -> T {
 fn largest<T> (list: &[T]) -> T
-    where T: PartialOrd + Copy
+    where T: PartialOrd + Copy  // 实现这两个特征 才可以使用
 {
     let mut larger = list[0];
     for &item in list.iter() {
