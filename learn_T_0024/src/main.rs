@@ -29,16 +29,18 @@
 // // }
 
 // // //--------使用泛型-----------
+use std::cmp::PartialOrd;
+use std::os::Copy;
 
-// // fn largest<T: PartialOrd + Copy>(list: &[T]) -> T {
-// //     let mut larger = list[0];
-// //     for &item in list.iter() {
-// //         if item > larger {
-// //             larger = item;
-// //         }
-// //     }
-// //     larger
-// // }
+fn largest<T: PartialOrd + Copy>(list: &[T]) -> T {
+    let mut larger = list[0];
+    for &item in list.iter() {
+        if item > larger {
+            larger = item;
+        }
+    }
+    larger
+}
 
 // // fn main() {
 // //     let number_list = vec![1, 2, 23, 34, 8, 100];
