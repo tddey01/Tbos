@@ -7,7 +7,6 @@
 //    println!("age = {}", item.get_age());
 //}
 
-use std::intrinsics::truncf32;
 
 trait GetName {
     fn get_name(&self) -> &String;
@@ -80,19 +79,19 @@ impl GetAge for Teacher {
     }
 }
 
-fn produce_item_with_age2() -> impl GetAge {
- //返回值是一个特征 要求
-    let is = true;
-    if is{
-        Student {
-            name: String::from("xiaoming"),
-            age: 15,
-        }
-    }else {
-        Teacher {
-            name : String::from("xiaohuang"),
-            age:30,
-        }
-    }
-
-}
+// fn produce_item_with_age2() -> impl GetAge { // 錯誤用法
+//  //返回值是一个特征 要求
+//     let is = true;
+//     if is{
+//         Student {
+//             name: String::from("xiaoming"),
+//             age: 15,
+//         }
+//     }else {
+//         Teacher {
+//             name : String::from("xiaohuang"),
+//             age:30,
+//         }
+//     }
+//
+// }
