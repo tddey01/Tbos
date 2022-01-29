@@ -23,7 +23,7 @@ pub struct Student {
 impl  SchoolName for Student {}  // 使用默认实现特征
 
 impl GetInformation for Student {
-    fn get_name(&self) -> &String { 
+    fn get_name(&self) -> &String {
         &self.name
     }
 
