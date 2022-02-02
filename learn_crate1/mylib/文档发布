@@ -1,0 +1,3 @@
+cargo  doc 文件生成
+cargo doc --open 打开生成文档
+cargo test 测试
