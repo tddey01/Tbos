@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="Go" enabled="true" />
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Box/learn_box1_0002/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Deref/learn_deref_0001/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Deref/learn_deref_0002/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Drop/learn_drop_0001/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RC/learn_rc1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RC/learn_rc2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RC/learn_refcell/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0002/getaver/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0002/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0002/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0003/gui/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0003/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0004/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_001/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/bbs/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/对象封装/bbs/post/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Box/learn_box1_0002/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Deref/learn_deref_0001/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Deref/learn_deref_0002/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Drop/learn_drop_0001/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RC/learn_rc1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RC/learn_rc2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RC/learn_refcell/target" />
+      <excludeFolder url="file://$MODULE_DIR$/对象封装/learn_oo_001/target" />
+      <excludeFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0002/target" />
+      <excludeFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0003/target" />
+      <excludeFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0004/target" />
+      <excludeFolder url="file://$MODULE_DIR$/对象封装/bbs/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
