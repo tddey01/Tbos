@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/对象封装/learn_oo_001/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/对象封装/bbs/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/对象封装/bbs/post/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模式/learn_pattern_0001/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/Box/learn_box1_0002/target" />
       <excludeFolder url="file://$MODULE_DIR$/Deref/learn_deref_0001/target" />
       <excludeFolder url="file://$MODULE_DIR$/Deref/learn_deref_0002/target" />
@@ -31,6 +32,7 @@
       <excludeFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0003/target" />
       <excludeFolder url="file://$MODULE_DIR$/对象封装/learn_oo_0004/target" />
       <excludeFolder url="file://$MODULE_DIR$/对象封装/bbs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/模式/learn_pattern_0001/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
